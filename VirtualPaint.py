@@ -12,7 +12,7 @@ cap.set(10, 130)
 # HSV ranges: [H_min, S_min, V_min, H_max, S_max, V_max]
 myColors = [[5, 57, 127, 179, 255, 255],     # Orange
             [100, 150, 0, 130, 255, 255],    # Blue
-            [20, 100, 100, 30, 255, 255 ]] # yellow
+            [20, 100, 100, 30, 255, 255]] # yellow
 
 myColorValues = [[0,140,255],[255,0,0],[30,255,255]] #BGR
 myPoints = [] #[x,y,colorId]
@@ -31,7 +31,7 @@ def findColors(img, myColors,myColorValues):
         if x!=0 and y!=0:
             newPoints.append([x,y,count])
         count += 1
-        #cv2.imshow(f"Mask {i+1}", mask_resized)  # Show each mask in a separate window
+       
     return newPoints
 
 def getContours(img):
@@ -75,6 +75,7 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
 
 
 

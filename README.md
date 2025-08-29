@@ -1,6 +1,6 @@
 # 👁️ OpenCV Mini Projects  
 
-Welcome to my collection of **OpenCV-based projects** 🚀  
+Welcome to my collection of **OpenCV-based projects**   
 These were built while exploring computer vision concepts in Python. Each project is simple, practical, and demonstrates the power of OpenCV in real-world applications.  
 
 ---
